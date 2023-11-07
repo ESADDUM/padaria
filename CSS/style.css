@@ -1,0 +1,74 @@
+/*todos os estilos de paragrafo*/
+/*quando a tag tem ponto antes do nome (Exemplo: .p1) no index deve chamar com class (Exemplo: <p class="p1"> quando não tem ponto não chama com class */
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700; /*negrito*/
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: left; 
+}
+h2{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.titulo1{
+
+}
+
+.titulo2{
+
+}
+.p1 {
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 700; /*negrito*/
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: center;
+    text-decoration: overline underline; /*overline = linha em cima, none = sem linha*/
+    
+}
+.p2{
+    color: red;
+    text-align: justify;
+    font-weight: 700; /*negrito*/
+	font-size:30px;
+	text-decoration:none;
+}
+
+/*text-decoration: 
+		underline - linha embaixo; 
+		overline = linha em cima, none - sem linha*/
+p{
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: medium; 
+}
+
+.button1{
+
+}
+
+./*todos os estilos de imagem*/
+.img1{
+	border:2px;
+	border-color:green;
+	border-radius:50%
+}
+
+.img2{
+	border:3px;
+	border-color:black;
+	width: 50px;
+	height:50;
+}
+
+/*todos os estilos de links*/
+.link_retorno{
+	font-family:Verdana;
+	font-size:12px;
+	font-color:#fff;
+}
